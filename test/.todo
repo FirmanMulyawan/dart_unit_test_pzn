@@ -1,0 +1,20 @@
+========= pengenalan software testing 
+- software testing adalah salah satu disiplin ilmu dalam software engineering
+- tujuan utama dari software testing adalah memastikan kualitas kode dan aplikasi kita baik
+- ilmu untuk software testing sendiri sangatlah luas, pada materi ini kita hanya akan fokus ke unit testing
+
+========= unit test 
+- unit test akan fokus menguji bagian kode program terkecil, biasanya menguji sebuah method
+- unit test biasanya dibuat kecil dan cepat, oleh karena itu biasanya kadang kode unit test lebih banyak dari kode program aslinya, karena semua sekenario pengujian akan dicoba di unit test
+- unit test bisa digunakan sebagai cara untuk meningkatkan kualitas kode program kita
+
+========= testing package
+- dart memiliki package khusus untuk membuat unit test, yaitu package test
+- sebelum kita membuat unit test, kita perlu menambahkan package test terlebih dahulu ke project dart kita
+- https://pub.dev/packages/test
+
+========= membuat test
+- dart memiliki standarisasi untuk struktur folder pembuatan unit test, biasanya dibuat menggunakan nama folder test
+- selanjutnya nama file dart biasanya akan memiliki akhiran_test, misal contoh_test.dart
+- sama seperti ketika membuat aplikasi, saat membuat file unit test, kita juga perlu menambahkan main function di file test tersebut
+
